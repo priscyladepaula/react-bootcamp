@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: #d8d8d8;
+}
+
+#registro,
+#login {
+    width: 350px;
+    border: 1px solid #d6d7da;
+    padding: 0px 15px 15px 15px;
+    border-radius: 1em;
+    line-height: 16px;
+    color: #333333;
+    font-size: 14px;
+    background-color: #ffffff;
+    margin: 30px auto;
+}
+
+form label,
+form input {
+    display: block;
+    width: 95%;
+    background-color: #ffffff;
+}
+
+form input {
+    padding: 7px;
+    border: solid 1px #BDC7D8;
+    border-radius: 0.5em;
+    background-color: #ffffff;
+}
+
+.button {
+    border-radius: 0.5em;
+    border: 0px;
+    width: 100px;
+    height: 35px;
+    background-color: rgb(174, 0, 255);
+    font-weight: bold;
+    padding: 0px 15px;
+    color: #ffffff;
+    margin-left: 9.5em;
+}
+
+.msgErro {
+    color: #cc0000;
+    margin-bottom: 12px;
+    font-size: 0.75em;
+}
+
+h3 {
+    color: rgb(174, 0, 255);
+    text-align: center;
+}

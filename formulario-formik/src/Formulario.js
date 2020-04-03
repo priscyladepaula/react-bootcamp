@@ -17,7 +17,7 @@ const validate = values => {
     return errors;
 };
 
-export const Formulario = () => {
+export default function Formulario () {
     const formik = useFormik({
         initialValues: {
             name: '',

@@ -1,0 +1,63 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: rgb(209, 209, 209);
+}
+
+#formName{
+    padding-top: 250px;
+    padding-bottom: 50px;
+}
+
+#formEmail{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+#formName input{
+    width: 200px;
+    height: 20px;
+    border: none;
+    border-bottom: 1px solid rgb(59, 59, 59);
+    padding-left: 1%;
+    margin-left: 1%;
+    background-color: rgb(209, 209, 209);
+}
+
+#formEmail input{
+    width: 200px;
+    height: 20px;
+    border: none;
+    border-bottom: 1px solid rgb(59, 59, 59);
+    padding-left: 1%;
+    margin-left: 1%;
+    background-color: rgb(209, 209, 209);
+}
+
+input:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+#error{
+    color: red;
+    font-size: 10px;
+}
+
+button{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    border-radius: 3em;
+    border: none;
+    cursor: pointer;
+    width: 90px;
+    height: 30px;
+}
+
+input placeholder{
+    opacity: 0.4;
+}

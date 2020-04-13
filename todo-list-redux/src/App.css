@@ -1,0 +1,60 @@
+*{
+  font-family: 'Lato', sans-serif;
+}
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#add-todo{
+    width: 200px;
+    height: 20px;
+    border: none;
+    border-bottom: 1px solid rgb(139, 139, 139);
+    text-align: center;
+    margin-top: 200px;
+}
+
+input:focus{
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+button:focus{
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+#button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-radius: 1px;
+  background-color: blueviolet;
+  color: white;
+}
+
+#todo-list{
+  margin-top: 20px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+#container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#show{
+  margin-left: 5px;
+}

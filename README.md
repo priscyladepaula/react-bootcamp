@@ -30,5 +30,20 @@ Formulário com validação de campos usando useFormik. Cada campo preenchido, a
 
 ### GIPHY API
 ![enter image description here](https://i.imgur.com/9gEtyDP.png)
+
 Aplicação de busca de gifs usando a chave gerado pelo site Giphy.
 
+### React Router
+![enter image description here](https://i.imgur.com/jBr7pzh.png)
+
+Aplicação para mudar a rota das páginas usando Router.
+
+### Studio Ghibli API
+![enter image description here](https://i.imgur.com/WSNLyRI.png)
+
+Aplicação para visualizar lista de filmes lida de um JSON usando Hooks.
+
+### ToDo List
+![enter image description here](https://i.imgur.com/zIOsGbf.png)
+
+Aplicação para adicionar tarefas a fazer, usando Redux.
